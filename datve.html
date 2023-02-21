@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style__datve.css">
+    <link rel="stylesheet" href="/css/table__sale.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="grid wide">
+            <div class="row col c-12">
+                <div class="header__logo col c-4">
+                    <a href="/home.html"><img class="logo_galaxy cursor-pointer" src="img/galaxy-logo.png"
+                            alt="logo_galaxy"></a>
+                </div>
+                <div class="header__content row col c-8 flex-between">
+                    <div class="header__content-input">
+                        <input type="search" name="" id="search__header" placeholder="Tìm tên phim, và diễn viên">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="header__content-user row">
+                        <span class="login__link cursor-pointer"><i class="fa-solid fa-user"></i> Đăng Nhập</span>
+                        <div class="language">
+                            <span class="language_1 color-tag cursor-pointer">
+                                VN
+                            </span>
+                            <span class="language_2 cursor-pointer">
+                                EN
+                            </span>
+                        </div>
+                    </div>
+                    <a href="/datve.html"></a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="grid wide">
+                <ul class="nav__list flex-around">
+                    <li class="nav__list-item text-uppercase">
+                        <span class="item__nav-content flex-center cursor-pointer">mua vé</span>
+                    </li>
+
+                    <li class="nav__list-item text-uppercase item-nav">
+                        <span class="item__nav-content cursor-pointer flex-center">phim <i
+                                class="fa-solid fa-angle-down"></i>
+                        </span>
+                        <div class="container_info-fim">
+                            <div class="box__movie box__movie-playing">
+                                <h2 class="box__movie_playing-title text-uppercase cursor-pointer">
+                                    phim đang chiếu
+                                </h2>
+
+                                <div class="line_bottom margin-lr-20px">
+
+                                </div>
+
+                                <ul class="movie_playing-list movie-list ">
+                                </ul>
+                            </div>
+
+                            <div class="box__movie box__movie-comming">
+                                <h2 class="box__movie_playing-title text-uppercase cursor-pointer">
+                                    phim sắp chiếu
+                                </h2>
+
+                                <div class="line_bottom margin-lr-20px">
+
+                                </div>
+
+                                <ul class="movie_comming-list movie-list">
+
+
+                                </ul>
+                            </div>
+
+                            <div class="box__movie-coming">
+
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="nav__list-item text-uppercase nav-info">
+                        <span class="item__nav-content cursor-pointer flex-center">góc điện ảnh <i
+                                class="fa-solid fa-angle-down"></i></span></span>
+                        <ul class="list__info-nav text-uppercase text-center">
+                            <li class="info__nav-item cursor-pointer">thể loại phim</li>
+                            <li class="info__nav-item cursor-pointer">diễn viên</li>
+                            <li class="info__nav-item cursor-pointer">đạo diễn</li>
+                            <li class="info__nav-item cursor-pointer">bình luận phim</li>
+                            <li class="info__nav-item cursor-pointer">blog điện ảnh</li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__list-item text-uppercase nav-info">
+                        <span class="item__nav-content cursor-pointer flex-center">sự kiện <i
+                                class="fa-solid fa-angle-down"></i></span>
+                        <ul class="list__info-nav text-uppercase text-center">
+                            <li class="info__nav-item cursor-pointer">ưu đãi</li>
+                            <li class="info__nav-item cursor-pointer">phim hay tháng</li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__list-item text-uppercase">
+                        <span class="item__nav-content cursor-pointer flex-center">rạp/giá vé
+                    </li>
+
+                    <li class="nav__list-item text-uppercase">
+                        <span class="item__nav-content cursor-pointer flex-center">hỗ trợ</span>
+                    </li>
+
+                    <li class="nav__list-item text-uppercase">
+                        <span class="item__nav-content cursor-pointer flex-center">thành viên</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <container>
+        <div class="grid wide">
+            <div class="map__web">
+                <span>
+                    Trang chủ > Đặt vé > <b>Nhà bà nữ</b>
+                </span>
+            </div>
+            <div class="container__content col l-12">
+                <div class="row">
+                    <div class="container__content-left col l-8">
+                        <div class="content__left-info-fim col l-12">
+                            <div class="row">
+                                <div class="content__left-fim-img col l-4">
+                                    <img src="../img__datve/nha-ba-nu-1_1673711231096.jpg" alt="">
+                                </div>
+
+
+                                <div class="content__left-fim-info col l-8">
+                                    <h1 class="info__fim-title text-uppercase">
+                                        nhà bà nữ
+                                    </h1>
+
+                                    <div class="info__fim-evaluate">
+                                        <span><i class="fa-solid fa-star"></i> <b class="score-star">8.4</b> / 10</span>
+                                        <button class="button-evaluete text-uppercase">đánh giá</button>
+                                    </div>
+
+                                    <div class="info__fim-time">
+                                        <span class="time-map">C16</span>
+                                        <span class="time-fim">
+                                            <i class="fa-regular fa-clock"></i>102 phút
+                                        </span>
+                                    </div>
+
+                                    <ul class="info__fim-content">
+                                        <li class="item__info-fim">
+                                            <p>Thể loại : <span>Hài</span></p>
+                                        </li>
+
+                                        <li class="item__info-fim">
+                                            <p>Nhà sản xuất : <span>CJ HK Entertainment</span></p>
+                                        </li>
+
+                                        <li class="item__info-fim">
+                                            <p>Diễn viên : <span>Lê Giang, Trấn Thành, Song Luân, Khả Như, Lê Dương Bảo
+                                                    Lâm</span></p>
+                                        </li>
+
+                                        <li class="item__info-fim">
+                                            <p>Quốc gia : <span>Việt Nam</span></p>
+                                        </li>
+
+                                        <li class="item__info-fim">
+                                            <p>Đạo diễn : <span>Trấn Thành</span></p>
+                                        </li>
+
+                                        <li class="item__info-fim">
+                                            <p>Ngày khởi chiếu : <span>20/1/2023</span></p>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="main__content">
+                                <ul class="list__item-content">
+                                    <li class="item__content">
+                                        <div class="main__content-header">
+                                            <h1 class="main__content-title text-uppercase">
+                                                nội dung phim
+                                            </h1>
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                        <div class="trailer__fim">
+                                            <iframe width="100%" height="480"
+                                                src="https://www.youtube.com/embed/pg4L29p98Kw"
+                                                title="Phim &quot;Nhà Bà Nữ&quot; Trailer | KC 22.01.2023"
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="main__content-text">
+                                            <p>Gia đình chữ “N” mỗi người một cá tính, một sở thích riêng nhưng tất cả
+                                                đều phải
+                                                chung tay vào công việc bận rộn của quán bánh canh cua nức tiếng của bà
+                                                Nữ. Hình
+                                                ảnh các thành viên gia đình bà Nữ đều rất gần gũi với hình mẫu người phụ
+                                                nữ
+                                                trong đời sống thường ngày: bản lĩnh, giỏi giang và thừa sức xoay trở
+                                                với hằng
+                                                hà sa số những thử thách trong cuộc sống.
+                                                Nhà Bà Nữ tái hiện chân thực cuộc sống thường nhật của một gia đình lao
+                                                động
+                                                điển hình, sống bằng nghề bán bánh canh cua.
+                                                Nhà Bà Nữ do Kim Entertainment sản xuất, Trấn Thành đạo diễn. Bộ phim
+                                                hội tụ
+                                                những tên tuổi diễn viên thân quen với khán giả Việt như: Trấn Thành, Lê
+                                                Giang,
+                                                NSND Ngọc Giàu, Khả Như, Huỳnh Uyển Ân, Song Luân, Lê Dương Bảo Lâm,
+                                                NSND Việt
+                                                Anh, NSƯT Công Ninh, Ngân Quỳnh, Lý Hạo Mạnh Quỳnh, Phương Lan… Nhà Bà
+                                                Nữ dự
+                                                kiến khởi chiếu 22.01.2023 (Mùng Một Tết Quý Mão).
+                                                Phim mới Nhà Bà Nữ, ra mắt tại các rạp chiếu phim từ 22.01.2023.</p>
+                                            <br>
+                                            <p>Xem thêm tại: <a
+                                                    href="https://www.galaxycine.vn/dat-ve/nha-ba-nu">https://www.galaxycine.vn/dat-ve/nha-ba-nu</a>
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="item__content">
+                                        <div class="main__content-header">
+                                            <h1 class="main__content-title text-uppercase">
+                                                lịch chiếu
+                                            </h1>
+                                            <div class="line">
+                                            </div>
+                                        </div>
+
+                                        <div class="main__content-showtime">
+                                            <form action="#" class="select__showtime flex-between">
+                                                <select name="list__location" id="select__location">
+                                                    <option value="location">Cả nước</option>
+                                                    <option value="location">hô chí minh</option>
+                                                    <option value="location">hô chí minh</option>
+                                                    <option value="location">hô chí minh</option>
+                                                    <option value="location">hô chí minh</option>
+                                                    <option value="location">hô chí minh</option>
+                                                    <option value="location">hô chí minh</option>
+                                                </select>
+
+                                                <input type="date" name="" id="">
+
+                                                <select name="list__cinema" id="select__cinema">
+                                                    <option value="cinema">Tất cả rạp</option>
+                                                    <option value="cinema">hô chí minh</option>
+                                                    <option value="cinema">hô chí minh</option>
+                                                    <option value="cinema">hô chí minh</option>
+                                                    <option value="cinema">hô chí minh</option>
+                                                    <option value="cinema">hô chí minh</option>
+                                                    <option value="cinema">hô chí minh</option>
+                                                </select>
+                                            </form>
+
+                                            <ul class="list__cinema">
+
+                                                <li class="cinema__info">
+                                                    <div class="cinema__info-name text-capitalize">
+                                                        galaxy nguyễn du
+                                                    </div>
+
+                                                    <div class="cinema__info-content flex-start">
+                                                        <div class="cinema__info-type">
+                                                            2D - Phụ đề
+                                                        </div>
+
+                                                        <div class="cinema__info-time">
+                                                            <ul class="list__time-cinema flex-around">
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="cinema__info">
+                                                    <div class="cinema__info-name text-capitalize">
+                                                        galaxy tân bình
+                                                    </div>
+
+                                                    <div class="cinema__info-content flex-start">
+                                                        <div class="cinema__info-type">
+                                                            2D - Phụ đề
+                                                        </div>
+
+                                                        <div class="cinema__info-time">
+                                                            <ul class="list__time-cinema flex-around">
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    11:55
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    13:20
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    16:30
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    19:50
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="cinema__info">
+                                                    <div class="cinema__info-name text-capitalize">
+                                                        galaxy bình thạnh
+                                                    </div>
+
+                                                    <div class="cinema__info-content flex-start">
+                                                        <div class="cinema__info-type">
+                                                            2D - Phụ đề
+                                                        </div>
+
+                                                        <div class="cinema__info-time">
+                                                            <ul class="list__time-cinema flex-around">
+                                                                <li class="time__cinema">
+                                                                    08:30
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    13:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    19:20
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="cinema__info">
+                                                    <div class="cinema__info-name text-capitalize">
+                                                        galaxy quang trung
+                                                    </div>
+
+                                                    <div class="cinema__info-content flex-start">
+                                                        <div class="cinema__info-type">
+                                                            2D - Phụ đề
+                                                        </div>
+
+                                                        <div class="cinema__info-time">
+                                                            <ul class="list__time-cinema flex-around">
+                                                                <li class="time__cinema">
+                                                                    11:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    15:00
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    19:25
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    21:10
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="cinema__info">
+                                                    <div class="cinema__info-name text-capitalize">
+                                                        galaxy kinh dương vương
+                                                    </div>
+
+                                                    <div class="cinema__info-content flex-start">
+                                                        <div class="cinema__info-type">
+                                                            2D - Phụ đề
+                                                        </div>
+
+                                                        <div class="cinema__info-time">
+                                                            <ul class="list__time-cinema flex-around">
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                                <li class="time__cinema">
+                                                                    09:45
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__content-sidebar col l-4">
+                        <ul class="list__content-sidebar">
+                            <li class="item__content-sidebar">
+                                <div class="sidebar__header">
+                                    <h1 class="content__sidebar-title text-uppercase">
+                                        nhận khuyến mãi
+                                    </h1>
+
+                                    <div class="line">
+
+                                    </div>
+                                </div>
+                                <div class="container__form-register">
+                                    <form action="#">
+                                        <input type="email" name="email" id="email" placeholder="Email"
+                                            class="input__gmail">
+                                        <button class="btn__register text-capitalize">
+                                            Đăng Ký
+                                        </button>
+                                    </form>
+                                </div>
+                            </li>
+
+                            <li class="item__content-sidebar">
+                                <div class="sidebar__header">
+                                    <h1 class="content__sidebar-title text-uppercase">
+                                        phim đang chiếu
+                                    </h1>
+
+                                    <div class="line">
+
+                                    </div>
+                                </div>
+
+                                <ul class="list__fim-sidebar">
+                                    <li class="item__fim-sidebar">
+                                        <div class="fim__sidebar-img">
+                                            <img src="../img/chi-chi-em-em.jpg" alt="">
+                                            <div class="blur-img flex-center">
+                                                <button class="btn_buy-ticket cursor-pointer">Đặt Vé</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="fim__sidebar-name text-uppercase">
+                                            Chị chị em em
+                                        </div>
+                                    </li>
+
+                                    <li class="item__fim-sidebar">
+                                        <div class="fim__sidebar-img">
+                                            <img src="../img/KNOCK-AT-THE-CABIN.jpg" alt="">
+                                            <div class="blur-img flex-center">
+                                                <button class="btn_buy-ticket cursor-pointer">Đặt Vé</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="fim__sidebar-name text-uppercase">
+                                            knock at the cabin
+                                        </div>
+                                    </li>
+
+                                    <li class="item__fim-sidebar">
+                                        <div class="fim__sidebar-img">
+                                            <img src="../img/tinh-nguoi-duyen-ma.jpg" alt="">
+                                            <div class="blur-img flex-center">
+                                                <button class="btn_buy-ticket cursor-pointer">Đặt Vé</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="fim__sidebar-name text-uppercase">
+                                            tình người duyên ma
+                                        </div>
+                                    </li>
+                                    <li class="item__content-sidebar">
+                                        <div class="sidebar__header">
+                                            <h1 class="content__sidebar-title text-uppercase">
+                                                Vị trí
+                                            </h1>
+
+                                            <div class="line">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="cinema__map">
+                                            <galaxy-google-map ng-map="cinema.mapEmbeb" class="ng-isolate-scope">
+                                                <div id="maps"><iframe
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.7318442356013!2d105.15271071478776!3d9.178644193417188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a149a0d61b6b83%3A0x236a8af355f80d04!2sCo.opmart+C%C3%A0+Mau!5e0!3m2!1sen!2s!4v1495428317298"
+                                                        width="100%" height="300" frameborder="0" style="border:0"
+                                                        allowfullscreen=""></iframe></div>
+                                            </galaxy-google-map>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="view__more flex-end">
+                                    <span class="view__more-title text-uppercase">
+                                        xem thêm <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </container>
+    <footer>
+        <div class="footer__container">
+            <div class="grid wide">
+                <div class="col row">
+                    <ul class="list__info-footer col l-8">
+                        <div class="row">
+                            <li class="item__info-footer col l-4">
+                                <h3 class="item__info-footer-title text-uppercase">
+                                    Giới thiệu
+                                </h3>
+                                <ul class="list__info-item">
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>về chúng
+                                            tôi</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>thỏa thuận
+                                            sử dụng</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>Quy chế
+                                            hoạt động</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>Chính sách
+                                            bảo mật</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item__info-footer col l-4">
+                                <h3 class="item__info-footer-title text-uppercase">
+                                    Góc điện ảnh
+                                </h3>
+                                <ul class="list__info-item">
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>thể loại
+                                            phim</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>bình luận
+                                            phim</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>blog điện
+                                            ảnh</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>phim hay
+                                            tháng</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item__info-footer col l-4">
+                                <h3 class="item__info-footer-title text-uppercase">
+                                    hỗ trợ
+                                </h3>
+                                <ul class="list__info-item">
+                                    <li class=" list__info-conteer text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>góp
+                                            ý</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>sale &
+                                            services</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>rạp / giá
+                                            vé</span>
+                                    </li>
+                                    <li class=" list__info-content text-uppercase">
+                                        <span class="cursor-pointer"><i class="fa-solid fa-angles-right"></i>tuyển
+                                            dụng</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+
+                    <ul class="list__contact-footer col l-4">
+                        <div class="content__contact-footer">
+                            <h3 class="item__info-footer-title text-uppercase">
+                                Kết nối với galaxy cinema
+                            </h3>
+                            <ul class="list__logo-contact flex-start">
+                                <li class="item__logo-contact">
+                                    <i class="fa-brands cursor-pointer fa-square-facebook"></i>
+                                </li>
+
+                                <li class="item__logo-contact">
+                                    <i class="fa-brands cursor-pointer fa-youtube"></i>
+                                </li>
+
+                                <li class="item__logo-contact">
+                                    <i class="fa-brands cursor-pointer fa-square-instagram"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content__contact-footer">
+                            <h3 class="item__info-footer-title text-uppercase">
+                                download app
+                            </h3>
+                            <ul class="list__logo-contact flex-start">
+                                <li class="item__logo-contact">
+                                    <i class="fa-brands fa-app-store-ios"></i>
+                                </li>
+
+                                <li class="item__logo-contact">
+                                    <i class="fa-brands fa-app-store-ios"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+
+                <hr>
+                <div class="content__footer flex-center">
+                    Công Ty Cổ Phần Phim Thiên Ngân, Tầng 3, Toà Nhà Bitexco Nam Long, 63A Võ Văn Tần, P. Võ Thị Sáu,
+                    Quận 3,
+                    Tp. Hồ Chí Minh
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>

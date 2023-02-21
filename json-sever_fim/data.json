@@ -1,0 +1,240 @@
+{
+    "moviePlaying" : [
+        {
+            "id" : 1,
+            "name" : "nhà bà nữ",
+            "author" : ["lê giang", "trấn thành", "song luân", "khả như", "lê dương bảo lâm",  "nsnd ngọc giàu"],
+            "banner" : "/img/nha-ba-nu-2_1673711236093.jpg",
+            "country" : "Việt Nam",
+            "directors" : "trấn thành",
+            "date" : "20/1/2023"
+        },
+
+        {
+            "id" : 2,
+            "name" : "chị chị em em",
+            "author" : ["minh hằng", "ngọc trinh", "lê giang"],
+            "banner" : "/img/chi-chi-em-em.jpg",
+            "country" : "Việt Nam",
+            "directors" : "vũ ngọc đãng",
+            "date" : "20/1/2023"
+        },
+
+        {
+            "id" : 3,
+            "name" : "m3gan",
+            "author" : ["Violet McGraw", "Amie Donald", "Jenna Davis"],
+            "banner" : "/img/m3gan.jpg",
+            "country" : "mỹ",
+            "directors" : "Gerard Johnstone",
+            "date" : "25/1/2023"
+        },
+
+        {
+            "id" : 4,
+            "name" : "the amazing maurice",
+            "author" : ["Violet McGraw", "Amie Donald", "Jenna Davis"],
+            "banner" : "/img/the-mazing.jpg",
+            "country" : "mỹ",
+            "directors" : "Gerard Johnstone",
+            "date" : "25/1/2023"
+        },
+
+        {
+            "id" : 5,
+            "name" : "BTS: YET TO COME IN CINEMAS",
+            "author" : "BTS",
+            "banner" : "/img/bts-poster-1800x1200_1674872653398.jpg",
+            "country" : "Hàn Quốc",
+            "directors" : "Gerard Johnstone",
+            "date" : "1/2/2023"
+        },
+
+        {
+            "id" : 6,
+            "name" : "Tình người duyên ma",
+            "author" : ["Ploy Janthakan", "Mai Prangned", "Olaf Smith"],
+            "banner" : "/img/tinh-nguoi-duyen-ma.jpg",
+            "country" : "Thái Lan",
+            "directors" : "Gerard Johnstone",
+            "date" : "27/1/2023"
+        }
+    ],
+
+    "movieComming" : [
+        {
+            "id" : 1,
+            "name" : "vong nhi",
+            "author" : "lê phương",
+            "banner" : "/img/vong-nhi-2.jpg",
+            "country" : "việt nam",
+            "directors" : "Hoàng Tuấn Cường",
+            "date" : "2/2/2023"
+        },
+
+        {
+            "id" : 2,
+            "name" : "KNOCK AT THE CABIN",
+            "author" : ["Dave Bautista", "Rupert Grint", "Jonathan Groff", "Ben Aldridge"],
+            "banner" : "/img/KNOCK-AT-THE-CABIN.jpg",
+            "country" : "mỹ",
+            "directors" : "M. Night Shyamalan",
+            "date" : "3/2/2023"
+        },
+
+        {
+            "id" : 3,
+            "name" : "PLANE",
+            "author" : ["Gerard Butler", "Mike Colter"],
+            "banner" : "/img/plane-2.jpg",
+            "country" : "anh",
+            "directors" : "Jean-François Richet",
+            "date" : "3/2/2023"
+        },
+
+        {
+            "id" : 4,
+            "name" : "ditto",
+            "author" : ["Yeo Jin Goo", "Cho Yi Hyun", "Kim Hye Yoon"],
+            "banner" : "/img/ditto.jpg",
+            "country" : "hàn",
+            "directors" : "Seo Eun Young",
+            "date" : "10/2/2023"
+        },
+
+        {
+            "id" : 5,
+            "name" : "TO ME, THE ONE WHO LOVED YOU",
+            "author" : ["Miyazawa Hio", "Hashimoto Ai"],
+            "banner" : "/img/galaxy-450x300_1674792608693.jpg",
+            "country" : "nhật bản",
+            "directors" : "Seo Eun Young",
+            "date" : "10/2/2023"
+        },
+
+        {
+            "id" : 6,
+            "name" : "TO EVERY YOU I'VE LOVED BEFORE",
+            "author" : ["Miyazawa Hio", "Hashimoto Ai"],
+            "banner" : "/img/galaxy---450x300_1674793566617_2.jpg",
+            "country" : "nhật bản",
+            "directors" : "Matsumoto Jun",
+            "date" : "10/2/2023"
+        }
+    ],
+
+    "blogComment" : [
+        {
+            "id" : 1,
+            "title" : "[Review] M3GAN: Khi \"Cúp Bế\" Trỗi Dậy Làm Chủ Con Người",
+            "image" : "/img_blog/450_1675096902304.jpg",
+            "view" : 502,
+            "rate" : 8.6,
+            "totalRate" : 101,
+            "description" : "Vừa hấp dẫn, vừa giải trí, M3GAN hoàn toàn xứng đáng với những lời khen từ đại chúng và các nhà phê bình."
+        },
+
+        {
+            "id" : 2,
+            "title" : "[Review] Chị Chị Em Em 2: Ngọc Trinh Hoàn Hảo, Minh Hằng Xuất Sắc!",
+            "image" : "/img_blog/chi-chi-em-em-2-ngoc-trinh-hoan-hao--minh-hang-xuat-sac-6_1674277365986.jpg",
+            "view" : 13789,
+            "rate" : 8.4,
+            "totalRate" : 462,
+            "description" : "Đạo diễn Vũ Ngọc Đãng thành công vừa làm nổi bật Ngọc Trinh bốc lửa vừa tôn được nét đẹp đằm thắm của Minh Hằng."
+        },
+
+        {
+            "id" : 3,
+            "title" : "[Review] Nhà Bà Nữ: Chiến Thắng Phòng Vé Lần Nữa Của Trấn Thành?",
+            "image" : "/img_blog/nha-ba-nu-chien-thang-phong-ve-lan-nua-cua-tran-thanh-1_1674276111272.jpg",
+            "view" : 9224,
+            "rate" : 8.5,
+            "totalRate" : 1366,
+            "description" : "Nhà Bà Nữ không phải phim chiếu rạp xuất sắc nhưng chắc chắn là tác phẩm cực kì thích hợp để rủ gia đình và bạn bè ra rạp chiếu phim."
+        },
+
+        {
+            "id" : 4,
+            "title" : "[Preview] Ant-Man And The Wasp Quantumania: MCU Có Trở Lại Đỉnh Cao?",
+            "image" : "/img_blog/ant-man-and-the-wasp-quantumania-mcu-co-tro-lai-dinh-cao-4_1672894974067.jpg",
+            "view" : 1924,
+            "rate" : 9.5,
+            "totalRate" : 78,
+            "description" : "Để nhận xét rằng MCU hết hot vào lúc này là quá sớm. Ít nhất, chúng ta phải chờ Ant-Man And The Wasp: Quantumania ra rạp chiếu phim đã!."
+        }
+
+    ],
+
+    "blogMovie" : [
+        {
+            "id" : 1,
+            "title" : "James Wan Nói Về The Conjuring 4 Và M3GAN",
+            "image" : "/img_blog/450_1673721206177.jpg",
+            "view" : 1385,
+            "description" : "Ngay từ đầu năm thì các tín đồ của thể loại kinh dị sẽ có sự lựa chọn thú vị mang tên: M3GAN."
+        },
+
+        {
+            "id" : 2,
+            "title" : "Người Kiến Sẽ Hi Sinh Trong Ant-Man And The Wasp: Quantumania?",
+            "image" : "/img_blog/nguoi-kien-se-hi-sinh-trong-ant-man-and-the-wasp-quantumania-9_1673456787954.jpg",
+            "view" : 409,
+            "description" : "Hãy cùng tìm hiểu những chi tiết mới từ trailer siêu nghiêm túc mà Marvel vừa tung ra. Tuy nhiên, đừng quên rằng, hãng này là chúa lừa đấy!!"
+        },
+
+        {
+            "id" : 3,
+            "title" : "Ký Sự Điện Ảnh - Kỳ 21: Phiếm Phim Đầu Năm, \"Fun\" Cả Năm",
+            "image" : "/img_blog/450_1673155628245.jpg",
+            "view" : 549,
+            "description" : "Nhìn lại bức tranh điện ảnh của cả năm 2022 có gì đáng nhớ!"
+        },
+
+        {
+            "id" : 4,
+            "title" : "Avatar The Way Of Water Mạnh Không Cản Nổi, Disney Tiếp Tục Dẫn Đầu Doanh Thu",
+            "image" : "/img_blog/avatar-the-way-of-water-manh-khong-can-noi--disney-tiep-tuc-dan-dau-doanh-thu-5_1672995821339.jpg",
+            "view" : 721,
+            "description" : "Nhà Chuột lại đại thắng năm nay, anti cũng chả cãi nổi! Hãy nhìn lại bảng xếp hạng phòng vé đi nào!"
+        } 
+
+    ],
+
+    "blogVoucher": [
+        {
+            "id" : 1,
+            "title" : "Chào 2023, Đón Mưa Quà Tặng Thành Viên Từ Galaxy Cinema!",
+            "image" : "/img_blog/blog_voucher-quyen-loi-thanh-vienjpg.jpg",
+            "description" : "Chỉ cần là thành viên của galaxy cinema, nhập ngay 1 bắp 2 nước !"
+        },
+        
+        {
+            "id" : 2,
+            "title" : "U22 Vui Vẻ - Bắp Nước Siêu Hạt Dẻ",
+            "image" : "/img_blog/combo-u22-digital-300x450-1667285239633_1670637604853.jpg",
+            "description" : "Galaxy Cinema ra mắt combo ưu tiên dành cho U22!"
+        },
+
+        {
+            "id" : 3,
+            "title" : "Ngày Tri Ân Của Galaxy Cinema - Ngày Thứ Hai ĐẦU TIÊN Mỗi Tháng",
+            "image" : "/img_blog/1200x1800-100_1675149392898.jpg",
+            "description" : "Từ lâu, chương trình Ngày Tri Ân Nhằm tạo điều kiện thuận lợi hơn cho các khách hàng thả ga xem phim đã trở nên quen thuộc với các khách hàng thân yêu của Galaxy Cinema."
+        },
+
+        {
+            "id" : 4,
+            "title" : "Ly Lấp Lánh Mừng Avatar Trở Lại",
+            "image" : "/img_blog/combo-avatar2-digital-300x450-1669694289185_1670637273331.jpg",
+            "description" : "Bùng nổ sau 14 năm của Avatar cùng Ly lấp lánh AVATAR "
+        },
+
+        {
+            "id" : 5,
+            "title" : "Happy Day",
+            "image" : "/img_blog/300x450-1642060360230_1642391019890.jpg",
+            "description" : "Bùng nổ sau 14 năm của Avatar cùng Ly lấp lánh AVATAR "
+        }
+    ]
+}
